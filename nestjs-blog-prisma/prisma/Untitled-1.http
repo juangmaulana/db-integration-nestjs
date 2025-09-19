@@ -1,0 +1,22 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Nafkhan",
+  "email": "nafkhan3@its.ac.id"
+}
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "Title post 3",
+  "content": "Content post 3",
+  "authorId": 36
+}
